@@ -1,0 +1,17 @@
+body{
+    background-color: #e6eaef;
+}
+
+.content{
+        max-width: 660px;
+        margin: 0 auto;
+}
+
+.container{
+        padding-top: 40%;
+}
+
+.panel{
+    background-color: white;
+    padding: 5px 50px 36px;
+}
