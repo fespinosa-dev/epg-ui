@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/vendor/spectre.min.css">
+    <link rel="stylesheet" href="css/vendor/spectre-exp.min.css">
+    <link rel="stylesheet" href="css/vendor/spectre-icons.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <title>Document</title>
+    <style>
+        #header .container {
+            background-color: black;
+        }
+
+        .dropdown {
+            float: right;
+        }
+
+        #header .container {
+            padding: 12px;
+        }
+
+        body {
+            background-color: #e6eaef;
+        }
+
+        #main {
+            margin: auto;
+            max-width: 50%;
+            min-height: 500px;
+            background-color: white;
+            -webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.27);
+            -moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.27);
+            box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.27);
+        }
+
+        .column {
+            border: bold 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="columns">
+                <div class="column col-9">
+                    <div class="dropdown">
+                        <a href="#" class="btn btn-link dropdown-toggle" tabindex="0">
+                            <i class="icon  icon-people"></i>
+                            <span style="margin-left: 7px">My Account</span>
+                            <i class="icon icon-caret"></i>
+                        </a>
+                        <!-- menu component -->
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#">
+                                    <p>fjevictoriano@gmail.com</p>
+                                </a>
+                                <li class="divider">
+                                </li>
+                                <a href="#">
+                                    <i class="icon icon-shutdown"></i> Log out
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <div class="columns">
+                <div class="column  col-12">
+                    <div class="panel">
+                        <ul class="tab tab-block">
+                            <li class="tab-item active">
+                                <a href="#">epg managment</a>
+                            </li>
+                            <li class="tab-item">
+                                <a href="#">Files</a>
+                            </li>
+                        </ul>
+                        <form class="form-group" action="">
+                            <label class="label" for="input-file">Upload epg</label>
+                            <input class="form-input" type="file" name="" id="input-file">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
